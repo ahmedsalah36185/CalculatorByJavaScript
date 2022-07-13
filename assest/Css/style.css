@@ -1,0 +1,129 @@
+.main_dv{
+    overflow:hidden;
+    position:absolute;
+    top:10%;
+    left:10%;
+    width: 80%;
+    height: 80%;
+    background-color:rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10%;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 101px 10px;
+}
+/* btn style classe's*/
+.btn{
+    width:100px;
+    height:50px;
+    margin: 10px;
+    transition: .5s;
+}
+.standr{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.change{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-style:none;
+    border-radius:15%;
+}
+.change:hover{
+    background-color:rgb(76, 136, 247);
+    color: rgb(0, 0, 0);
+}
+.enable{
+    background-color: red;
+}
+.header{
+    position: absolute;
+    top:10px;
+    left:60%;
+}
+.forme {
+    width: 250px !important;
+    color: rgb(233, 133, 216) !important;
+    position: absolute;
+    top: 400px;
+    right:70px;
+    font-size: 15px !important;
+}
+
+.main_bord{
+    background-color: black;
+    padding-top: 20px;
+    border-style: solid;
+    border-radius:15%;
+    border-width: 10px;
+    border-color: black;
+    display: flex;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 22%;
+    left:2%;
+}
+#group_btn0{
+    position: absolute;
+    top: 60%;
+    left:25%;
+}
+#dv_result{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+#dv_result #result_in{
+    padding: 5px;
+    text-align: center;
+    background-color:black;
+    color:white;
+    font: size 55px;
+    font-weight: bolder;
+    border-radius: 15%;
+    width: 450px;
+    height:60px;
+}
+
+/* //////////////////////// small media screen ///////////*/
+@media all and (max-width:1024px) {
+    .main_dv{
+        position: absolute;
+        left: 35%;
+        top: 20%;
+        background-color: rgb(251, 134, 8);
+    }
+    .header{
+        position: absolute;
+        top:10px;
+        left:1%;
+    }
+    .forme {
+        width: 250px !important;
+        color: rgb(233, 133, 216) !important;
+        position: absolute;
+        top: 0px;
+        right:0px;
+        font-size: 15px !important;
+    }
+    .header{
+        display: none;
+        
+    }
+    .main_dv{
+        position: absolute;
+        top: 15%;
+        left: 15%;
+    }
+    .Main_class{
+        width: 10%;
+        height: 10%;
+        position: absolute;
+        top: 20%;
+        left: -18%;
+    }
+}
